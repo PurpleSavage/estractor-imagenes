@@ -1,0 +1,135 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    padding:20px 2px ;
+}
+.inputfile{
+    display: none;
+}
+.labelFile{
+    background: #E20F0F;
+    padding: 8px 30px;;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.submit{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #5700AD;
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 8px;
+    font-size:15px;
+}
+.labelFile:hover{
+    background: #bd0000;
+}
+.submit:hover{
+    background: #3d007a;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 5px;
+}
+.left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(185, 185, 185);
+}
+.right{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.trasncriptLines{
+    color:black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.trasncriptLinesCenter{
+    color:black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.contTranscript{
+    overflow-y: auto;
+    min-height: 20px;
+    max-height: 180px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(185, 185, 185);
+    max-width: 600px;
+    width: 580px;   
+}
+.contIa{
+   
+    height: 400px;
+    box-shadow: 0 -25px 50px -12px rgb(0 0 0 / 0.25);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(185, 185, 185);
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputText{
+    height: 40px;
+    width: 400px;
+    background: rgb(248, 248, 248);
+    padding: 1px 5px;
+    color: black;
+}
+.contResponseIa{
+    flex-grow: 1;
+    max-height: 400px;
+    overflow-y: auto;
+    color: black;
+    width: 100%;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 1px;
+}
+.Send{
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #5700AD;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.Send:hover{
+    background: #3d007a;
+}
+.userMessage {
+    background: blueviolet;
+    width: max-content;
+    padding: 4px;
+    border-radius: 10px;
+}
+.assistantMessage{
+    background: slategrey;
+    padding: 4px;
+    border-radius: 10px;
+}
